@@ -1,0 +1,108 @@
+<resources>
+    <string name="app_name">Store Inventory</string>
+
+    <!-- Title for the activity to add a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_new_product">Add a Product</string>
+
+    <!-- Title for the activity to edit a new product [CHAR LIMIT=20] -->
+    <string name="editor_activity_title_edit_product">Edit a Product</string>
+
+    <!-- Label for overview category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="overview">Overview</string>
+
+    <!-- Text hint for name field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_name">Name</string>
+
+    <!-- Text hint for price field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_price">Price</string>
+
+    <!-- Text hint for quantity field in the editor [CHAR LIMIT=30] -->
+    <string name="hint_product_quantity">Quantity</string>
+
+    <!-- Label for order category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="edit_product_order">Order</string>
+
+    <!-- Label for sell category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="edit_product_sell">Sell</string>
+
+    <!-- Label for picture category of attributes in the editor [CHAR LIMIT=30] -->
+    <string name="edit_product_picture">Picture</string>
+
+    <!-- Label for picture category button to add a picture -->
+    <string name="edit_product_add_photo">Add picture</string>
+
+    <!-- Label for picture category button to change the picture -->
+    <string name="edit_product_change_photo">Change picture</string>
+
+    <!-- Units for price of the product (BGN) [CHAR LIMIT=5] -->
+    <string name="unit_product_price">BGN</string>
+
+    <!-- Label for editor menu option to save product and leave editor [CHAR LIMIT=20] -->
+    <string name="action_save">Save</string>
+
+    <!-- Label for editor overflow menu option that deletes the current product [CHAR LIMIT=20] -->
+    <string name="action_delete">Delete</string>
+
+    <!-- Label for overflow menu option that inserts fake product data into the app [CHAR LIMIT=20] -->
+    <string name="action_insert_dummy_product">Insert Dummy Product</string>
+
+    <!-- Label for overflow menu option that deletes all product data in the app [CHAR LIMIT=20] -->
+    <string name="action_delete_all">Delete All Products</string>
+
+    <!-- Toast message to show in the editor if the user hasn't filled in all fields for a new product -->
+    <string name="editor_insert_info_missing">Please fill in all fields</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_failed">Error with saving product.</string>
+
+    <!-- Toast message in editor when new product has failed to be inserted [CHAR LIMIT=NONE] -->
+    <string name="editor_insert_product_successful">Product saved.</string>
+
+    <!-- Toast message in editor when new product has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_successful">Update successful.</string>
+
+    <!-- Toast message in editor when new product has failed to be updated. [CHAR LIMIT=NONE] -->
+    <string name="editor_update_product_failed">Update failed.</string>
+
+    <!-- Message in dialog when new product info has been changed but not saved. [CHAR LIMIT=NONE] -->
+    <string name="unsaved_changes_dialog_msg">Discard your changes and quit editing?</string>
+
+    <!-- Message in dialog when the user wants to discard changes to product info. [CHAR LIMIT=15] -->
+    <string name="discard">Discard</string>
+
+    <!-- Message in dialog when the user wants to keep editing product info. [CHAR LIMIT=15] -->
+    <string name="keep_editing">Keep editing</string>
+
+    <!-- Dialog message to ask the user to confirm deleting the current product [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg">Delete this product?</string>
+
+    <!-- Dialog button text for the option to confirm deleting the current product [CHAR LIMIT=20] -->
+    <string name="delete">Delete</string>
+
+    <!-- Dialog button text for the option to cancel deletion of the current product [CHAR LIMIT=20] -->
+    <string name="cancel">Cancel</string>
+
+    <!-- Toast message in editor when current product was successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_successful">Product deleted</string>
+
+    <!-- Toast message in editor when current product has failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="editor_delete_product_failed">Error with deleting product</string>
+
+    <!-- Dialog message to ask the user to confirm deleting all of the products [CHAR LIMIT=NONE] -->
+    <string name="delete_dialog_msg_all_products">Delete all products?</string>
+
+    <!-- Toast message in editor when all products were successfully deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_products_successful">Products deleted</string>
+
+    <!-- Toast message in editor when all products have failed to be deleted [CHAR LIMIT=NONE] -->
+    <string name="catalog_delete_products_failed">Error with deleting products</string>
+
+    <!-- Toast message in catalog when product quantity has been successfully updated [CHAR LIMIT=NONE] -->
+    <string name="catalog_update_product_successful">Quantity updated successfully</string>
+
+    <!-- Template text for the email message for ordering more product [CHAR LIMIT=NONE] -->
+    <string name="editor_order_more_email">Hello, I need to order %1$d more of the product: %2$s. Thank you! </string>
+
+    <!-- Toast message warning in editor when sell quantity is bigger than current quantity [CHAR LIMIT=NONE] -->
+    <string name="editor_quantity_warning">Quantity can\'t be less than zero</string>
+</resources>
